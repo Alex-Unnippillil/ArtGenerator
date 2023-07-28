@@ -2,10 +2,17 @@
 <html>
 <head>
     <title>Abstract Art Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="color:white">Abstract Art Generator</h1>
-    <canvas id="artCanvas" width="800" height="600" style="border:1px solid black; background-color: black;"></canvas>
+    <div class="container">
+        <h1>Abstract Art Generator</h1>
+        <div class="canvas-container">
+            <canvas id="artCanvas" width="800" height="600"></canvas>
+        </div>
+        <button id="generateButton">Generate Art</button>
+        <button id="saveButton">Save Art</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
